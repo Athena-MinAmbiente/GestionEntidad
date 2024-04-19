@@ -484,6 +484,28 @@ Perfil</span>
 
 
 {END usr_nombresfull_fieldblock}
+											
+{BEGIN userpic_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_userpic}  r-vertical-field" 
+	data-signal-error-for="userpic{$id}" {$required_attr_userpic}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field4" {$item_integrated_edit_field4} data-pageid="{$pageid}" data-field="userpic" data-fieldname="userpic" >
+
+	<label class="r-edit-label control-label" for="{$labelfor_userpic}">
+		{BEGIN userpic_label}{END userpic_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$userpic_editcontrol}	</div>
+	<div class="r-edit-tooltip" data-helpfor="userpic" {$tooltipAttr global_users userpic } >
+		<div class="text-muted" >
+		{$tooltip global_users userpic }		</div>
+	</div>
+</div>
+
+
+{END userpic_fieldblock}
 	
 								</td>
 			{END cellblock_grid_fields}

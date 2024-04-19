@@ -583,9 +583,9 @@ $globalSettings = array();
 $g_defaultOptionValues = array();
 $g_settingsType = array();
 
-$twilioSID = "AC3c658586bc137cb3d4b464c32c5d65b0";
-$twilioAuth = "0a588dfdfd2ecbabdbbde7ccedd88009";
-$twilioNumber = "+19172424570";
+$twilioSID = "";
+$twilioAuth = "";
+$twilioNumber = "";
 
 // Update edit format for date text fields
 $editTextAsDate = false;
@@ -776,9 +776,9 @@ $suggestAllContent = true;
 $strLastSQL = "";
 $showCustomMarkerOnPrint = false;
 
-$projectBuildKey = "597_1713491296";
+$projectBuildKey = "598_1713491296";
 $wizardBuildKey = "41619";
-$projectBuildNumber = "597";
+$projectBuildNumber = "598";
 
 $mlang_messages = array();
 $mlang_charsets = array();
